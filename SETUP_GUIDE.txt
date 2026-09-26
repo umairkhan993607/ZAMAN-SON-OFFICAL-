@@ -1,0 +1,17 @@
+ZAMAN SON BLACK & GOLD + ADMIN SYSTEM
+
+IMPORTANT: GitHub Pages hosts the site, but permanent product/image storage needs Firebase.
+
+ONE-TIME FIREBASE SETUP:
+1. Open https://console.firebase.google.com/ and create a project.
+2. Add a Web App (</>), copy its config, and replace the values in firebase-config.js.
+3. Authentication > Sign-in method > enable Email/Password.
+4. Authentication > Users > Add user: create your private admin email/password.
+5. Firestore Database > Create database.
+6. Storage > Get started.
+7. Paste firestore.rules into Firestore Rules and storage.rules into Storage Rules.
+8. Upload all files to your GitHub repo, replacing the old site files.
+9. Open your site /admin.html and log in with the Firebase admin account.
+10. Add Product: image + name + price + discount + stock.
+
+Never put a Firebase service-account private key in this website.
